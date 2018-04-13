@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847299FE2081324200702369 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847299FD2081324200702369 /* Extensions.swift */; };
 		84885A822081169100835F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A812081169100835F46 /* AppDelegate.swift */; };
 		84885A842081169100835F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A832081169100835F46 /* ViewController.swift */; };
 		84885A872081169100835F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84885A852081169100835F46 /* Main.storyboard */; };
 		84885A892081169100835F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84885A882081169100835F46 /* Assets.xcassets */; };
 		84885A8C2081169100835F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84885A8A2081169100835F46 /* LaunchScreen.storyboard */; };
+		84885A9620811BC800835F46 /* GenericInfoTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A9520811BC800835F46 /* GenericInfoTableViewData.swift */; };
+		84885A9920811C3800835F46 /* BasicInfoSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A9820811C3800835F46 /* BasicInfoSelectionCell.swift */; };
+		84885A9D20811D0700835F46 /* GenericInfoSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A9C20811D0700835F46 /* GenericInfoSelectionViewController.swift */; };
+		84885AA020811E6900835F46 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885A9F20811E6900835F46 /* Gender.swift */; };
+		84885AA220811E7300835F46 /* RelationshipStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AA120811E7300835F46 /* RelationshipStatus.swift */; };
+		84885AA420811E7C00835F46 /* Ethnicity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AA320811E7C00835F46 /* Ethnicity.swift */; };
+		84885AA620811E8500835F46 /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AA520811E8500835F46 /* Hobby.swift */; };
+		84885AAC2081210D00835F46 /* HobbySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AAB2081210D00835F46 /* HobbySelectionViewController.swift */; };
+		84885AAE2081212000835F46 /* EthnicitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AAD2081212000835F46 /* EthnicitySelectionViewController.swift */; };
+		84885AB02081213000835F46 /* RelationshipStatusSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AAF2081213000835F46 /* RelationshipStatusSelectionViewController.swift */; };
+		84885AB22081214100835F46 /* GenderSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AB12081214100835F46 /* GenderSelectionViewController.swift */; };
+		84885AB4208121F600835F46 /* HobbyTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AB3208121F600835F46 /* HobbyTableViewData.swift */; };
+		84885AB62081220800835F46 /* EthnicityTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AB52081220800835F46 /* EthnicityTableViewData.swift */; };
+		84885AB82081221500835F46 /* RelationshipStatusTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AB72081221500835F46 /* RelationshipStatusTableViewData.swift */; };
+		84885ABA2081221F00835F46 /* GenderTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84885AB92081221F00835F46 /* GenderTableViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847299FD2081324200702369 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		84885A7E2081169100835F46 /* GenericInfoSelectionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericInfoSelectionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84885A812081169100835F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84885A832081169100835F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,21 @@
 		84885A882081169100835F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84885A8B2081169100835F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84885A8D2081169100835F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84885A9520811BC800835F46 /* GenericInfoTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInfoTableViewData.swift; sourceTree = "<group>"; };
+		84885A9820811C3800835F46 /* BasicInfoSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoSelectionCell.swift; sourceTree = "<group>"; };
+		84885A9C20811D0700835F46 /* GenericInfoSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInfoSelectionViewController.swift; sourceTree = "<group>"; };
+		84885A9F20811E6900835F46 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		84885AA120811E7300835F46 /* RelationshipStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipStatus.swift; sourceTree = "<group>"; };
+		84885AA320811E7C00835F46 /* Ethnicity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethnicity.swift; sourceTree = "<group>"; };
+		84885AA520811E8500835F46 /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		84885AAB2081210D00835F46 /* HobbySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbySelectionViewController.swift; sourceTree = "<group>"; };
+		84885AAD2081212000835F46 /* EthnicitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthnicitySelectionViewController.swift; sourceTree = "<group>"; };
+		84885AAF2081213000835F46 /* RelationshipStatusSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipStatusSelectionViewController.swift; sourceTree = "<group>"; };
+		84885AB12081214100835F46 /* GenderSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelectionViewController.swift; sourceTree = "<group>"; };
+		84885AB3208121F600835F46 /* HobbyTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTableViewData.swift; sourceTree = "<group>"; };
+		84885AB52081220800835F46 /* EthnicityTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthnicityTableViewData.swift; sourceTree = "<group>"; };
+		84885AB72081221500835F46 /* RelationshipStatusTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipStatusTableViewData.swift; sourceTree = "<group>"; };
+		84885AB92081221F00835F46 /* GenderTableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTableViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		847299FC2081322200702369 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885A832081169100835F46 /* ViewController.swift */,
+				847299FD2081324200702369 /* Extensions.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		84885A752081169100835F46 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +95,109 @@
 		84885A802081169100835F46 /* GenericInfoSelectionViewController */ = {
 			isa = PBXGroup;
 			children = (
+				847299FC2081322200702369 /* ViewController */,
+				84885A9320811BA900835F46 /* InfoSelectionViewController */,
 				84885A812081169100835F46 /* AppDelegate.swift */,
-				84885A832081169100835F46 /* ViewController.swift */,
 				84885A852081169100835F46 /* Main.storyboard */,
 				84885A882081169100835F46 /* Assets.xcassets */,
 				84885A8A2081169100835F46 /* LaunchScreen.storyboard */,
 				84885A8D2081169100835F46 /* Info.plist */,
 			);
 			path = GenericInfoSelectionViewController;
+			sourceTree = "<group>";
+		};
+		84885A9320811BA900835F46 /* InfoSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9E20811E5500835F46 /* Enums */,
+				84885A9A20811CB700835F46 /* ViewControllers */,
+				84885A9720811C1C00835F46 /* Cell */,
+				84885A9420811BB600835F46 /* Protocols */,
+			);
+			path = InfoSelectionViewController;
+			sourceTree = "<group>";
+		};
+		84885A9420811BB600835F46 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9520811BC800835F46 /* GenericInfoTableViewData.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84885A9720811C1C00835F46 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9820811C3800835F46 /* BasicInfoSelectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		84885A9A20811CB700835F46 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9B20811CC000835F46 /* Base */,
+				84885AAA2081209F00835F46 /* HobbySelectionViewController */,
+				84885AA92081209500835F46 /* EthnicitySelectionViewController */,
+				84885AA82081208700835F46 /* RelationshipStatusSelectionViewController */,
+				84885AA72081207B00835F46 /* GenderSelectionViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84885A9B20811CC000835F46 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9C20811D0700835F46 /* GenericInfoSelectionViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84885A9E20811E5500835F46 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				84885A9F20811E6900835F46 /* Gender.swift */,
+				84885AA120811E7300835F46 /* RelationshipStatus.swift */,
+				84885AA320811E7C00835F46 /* Ethnicity.swift */,
+				84885AA520811E8500835F46 /* Hobby.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		84885AA72081207B00835F46 /* GenderSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885AB12081214100835F46 /* GenderSelectionViewController.swift */,
+				84885AB92081221F00835F46 /* GenderTableViewData.swift */,
+			);
+			path = GenderSelectionViewController;
+			sourceTree = "<group>";
+		};
+		84885AA82081208700835F46 /* RelationshipStatusSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885AAF2081213000835F46 /* RelationshipStatusSelectionViewController.swift */,
+				84885AB72081221500835F46 /* RelationshipStatusTableViewData.swift */,
+			);
+			path = RelationshipStatusSelectionViewController;
+			sourceTree = "<group>";
+		};
+		84885AA92081209500835F46 /* EthnicitySelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885AAD2081212000835F46 /* EthnicitySelectionViewController.swift */,
+				84885AB52081220800835F46 /* EthnicityTableViewData.swift */,
+			);
+			path = EthnicitySelectionViewController;
+			sourceTree = "<group>";
+		};
+		84885AAA2081209F00835F46 /* HobbySelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84885AAB2081210D00835F46 /* HobbySelectionViewController.swift */,
+				84885AB3208121F600835F46 /* HobbyTableViewData.swift */,
+			);
+			path = HobbySelectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +272,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84885AA020811E6900835F46 /* Gender.swift in Sources */,
+				847299FE2081324200702369 /* Extensions.swift in Sources */,
 				84885A842081169100835F46 /* ViewController.swift in Sources */,
+				84885AA220811E7300835F46 /* RelationshipStatus.swift in Sources */,
+				84885AB82081221500835F46 /* RelationshipStatusTableViewData.swift in Sources */,
+				84885AA620811E8500835F46 /* Hobby.swift in Sources */,
+				84885AAE2081212000835F46 /* EthnicitySelectionViewController.swift in Sources */,
+				84885AB02081213000835F46 /* RelationshipStatusSelectionViewController.swift in Sources */,
+				84885AB62081220800835F46 /* EthnicityTableViewData.swift in Sources */,
+				84885AAC2081210D00835F46 /* HobbySelectionViewController.swift in Sources */,
+				84885AB22081214100835F46 /* GenderSelectionViewController.swift in Sources */,
+				84885AA420811E7C00835F46 /* Ethnicity.swift in Sources */,
+				84885ABA2081221F00835F46 /* GenderTableViewData.swift in Sources */,
+				84885A9620811BC800835F46 /* GenericInfoTableViewData.swift in Sources */,
+				84885A9D20811D0700835F46 /* GenericInfoSelectionViewController.swift in Sources */,
 				84885A822081169100835F46 /* AppDelegate.swift in Sources */,
+				84885AB4208121F600835F46 /* HobbyTableViewData.swift in Sources */,
+				84885A9920811C3800835F46 /* BasicInfoSelectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
