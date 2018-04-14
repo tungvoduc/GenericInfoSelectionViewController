@@ -1,10 +1,18 @@
 # GenericInfoSelectionViewController
 This is an example that shows how you can use Swift Generics to optimize your code.
 
-## Challenge
+## Challenges
 Users from your application have their basic profile information such as gender, ethnicity, relationship status and hobbies. All of these information can be updated as shown in screenshots below.
 
-As you can see, the functionalities in each screenshot are similar and the main difference is information type that user is updating.
+<p align="left" >
+  <img src="Screenshots/update-info.png" title="Default segmented control" width = 200>
+  <img src="Screenshots/gender.png" title="Default segmented control" width = 200>
+  <img src="Screenshots/ethnicity.png" title="Default segmented control" width = 200>
+  <img src="Screenshots/relationship.png" title="Default segmented control" width = 200>
+  <img src="Screenshots/hobbies.png" title="Default segmented control" width = 200>
+</p> 
+
+As you can see, the functionalities in each screenshot are similar. The main difference is information type that user is updating.
 So the challenge is how we can create one control that supports all different types of information.
 
 
@@ -52,7 +60,7 @@ extension Gender: BasicInfoData {
 ```
 
 <br/>
-Create **GenericInfoSelectionViewController** that has viewData as a generic data type of GenericInfoTableViewData. Later on, the controller being given a specific type, decides what data will be shown in its view. 
+Create GenericInfoSelectionViewController that has *viewData* as a generic data type of GenericInfoTableViewData. Later on, the controller being given a specific type, decides what data will be shown in its view. 
 
 ```swift
 class GenericInfoSelectionViewController<ViewDataType: GenericInfoTableViewData>: UITableViewController {
@@ -72,7 +80,7 @@ class GenericInfoSelectionViewController<ViewDataType: GenericInfoTableViewData>
 ```
 
 <br/>
-Now that we have our generic view controller that accepts any abstract data type of GenericInfoTableViewData. It is time to make a specific view controller for updating user gender. First, we need to create GenderTableViewData to inject to our new view controller.
+Now that we have our generic view controller that has abstract data type of GenericInfoTableViewData. It is time to make a specific view controller for updating user gender. First, we need to create GenderTableViewData to inject to our new view controller.
 
 ```swift
 struct GenderTableViewData: GenericInfoTableViewData {
@@ -90,7 +98,7 @@ struct GenderTableViewData: GenericInfoTableViewData {
 ```
 
 <br/>
-GenderTableViewData has infoData array has 2 possible values Male and Female for users to choose, allowsMultipleSelection is false as gender must be only one value.
+GenderTableViewData has *infoData* array has 2 possible values Male and Female for users to choose from, *allowsMultipleSelection* is *false* as gender must be only one value.
 Now our new view controller is:
 
 ```swift
@@ -100,10 +108,14 @@ class GenderSelectionViewController: GenericInfoSelectionViewController<GenderTa
     }
 }
 ```
+<br/>
+We just created GenderSelectionViewController from GenericInfoSelectionViewController with some simple additional work. For the rest(view controllers) and more detail, please check the project. 
 
 ## Author
 
-tungvoduc, tung98.dn@gmail.com
+Tung Vo
+
+tung98.dn@gmail.com
 
 ## License
 
