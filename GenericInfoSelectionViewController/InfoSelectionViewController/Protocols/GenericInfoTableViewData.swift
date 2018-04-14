@@ -9,8 +9,12 @@
 import Foundation
 import UIKit
 
-protocol BasicInfoData: Equatable {
+protocol TitleData {
     var title: String { get }
+}
+
+protocol BasicInfoData: TitleData, Equatable {
+    
 }
 
 protocol GenericInfoTableViewData {

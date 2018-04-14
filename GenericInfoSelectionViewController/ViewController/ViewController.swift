@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol TitleData {
-    var title: String { get }
-}
-
 class ViewController: UITableViewController {
     
     enum Section: Int {
